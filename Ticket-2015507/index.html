@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ticket de compra</title>
+        <link href="estilos.css" rel="stylesheet">
+
+
+<h1>===============TICKET DE COMPRA===============</h1>
+<body>
+  
+  <div class="main">
+  <form>
+    <br>
+   <center><label for="Art">Articulo:</label></center>
+   <center> <input type="text" placeholder="Escribe el articulo" id="Art" name=""> </center>
+   <br/ >
+   <p>
+
+   </p>
+   <center> <span> Precio:</span></center>
+   <center> <input type="text" placeholder="$" id=Pre" name="" onchange="SumarAutomatico(this.value);"></center>
+   <br/ >
+<p></p>
+  
+<center> <button> <input type="submit" value="Calcular total" onclick ="mostrarAlerta()"> </button> </center>
+<p></p>
+
+    
+  </form>
+
+  <script src="index.js"></script>
+
+<h2>==============TU TICKET=============</h2>
+
+<p></p>
+<p></p>
+<p></p>
+
+
+
+
+<br/ >
+<center>
+ ______________________________________
+<p></p>
+<span>Tota$: </span> <span id="MiTotal"></span>
+</div>
+</center>
+</body>
+</html>
+
+
+    
